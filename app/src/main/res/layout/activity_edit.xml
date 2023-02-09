@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+    <EditText
+        android:id="@+id/ETnis"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="NIS"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ETnama"
+        android:layout_width="367dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETnis" />
+
+    <EditText
+        android:id="@+id/ETkelas"
+        android:layout_width="368dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:hint="Kelas"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETnama" />
+
+    <EditText
+        android:id="@+id/ETalamat"
+        android:layout_width="369dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:hint="Alamat"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETkelas" />
+
+    <Button
+        android:id="@+id/Btnsimpan"
+        android:layout_width="175dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#28551B"
+        android:text="SIMPAN"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETalamat" />
+
+    <Button
+        android:id="@+id/Btnupdate"
+        android:layout_width="175dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="#28551B"
+        android:text="UPDATE"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Btnsimpan" />
+</androidx.constraintlayout.widget.ConstraintLayout>
